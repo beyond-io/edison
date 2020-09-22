@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>edison</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Advent+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed">
+    <link rel="stylesheet" type="text/css" href="../static/css/login-signin.css">
+</head>
+
+<body>
+    <div class="container text-center vh-100">
+        <div class="row justify-content-center h-100 container-background">
+            <div class="col d-md-flex justify-content-md-center align-items-md-center h-100 container-padding">
+                <div class="row h-50 w-75" id="login_screen">
+                    <div class="col switch-sign-up-block" id="left_signup">
+                        <div class="text-left rounded-left h-100 switch-sign-up-text-block">
+                            <div class="default-font" id="sub_text_div">
+                                <div class="switch-sign-up-position">
+                                    <h2 class="text-left text-white">
+                                        Don't Have an account?
+                                    </h2>
+                                    <p class="text-left text-light">
+                                        Join us in Edison Smart Home network.
+                                    </p>
+                                    <button class="btn btn-outline-secondary text-center w-50" id="btn_signup"
+                                        type="button">
+                                        SIGN UP
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col login-block-column" id="main_block_column">
+                        <div class="text-left bg-white border rounded border-dark shadow h-100 login-block"
+                            id="main_block">
+                            <div class="row h-75">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <h1 id="main_block_title" class="text-uppercase text-primary login-title">
+                                                log in
+                                            </h1>
+                                        </div>
+                                        <div class="col-md-4 text-right">
+                                            <img src="../static/Pictures/login/logo.png" class="h-75" />
+                                        </div>
+                                    </div>
+                                    <span id="error_message" class="error-message"></span>
+                                    <input id="main_form_email" type="email"
+                                        class="w-100 border-bottom border-left-0 border-right-0 border-top-0 default-font"
+                                        placeholder="Email">
+                                    <input id="main_form_password" type="password"
+                                        class="w-100 border-bottom border-left-0 border-right-0 border-top-0 default-font"
+                                        placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <a class="btn btn-outline-link text-left w-100 forget-password-btn" role="button"
+                                        id="btn_forgot_password">
+                                        Forgot Password?
+                                    </a>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <button class="btn btn-primary text-center w-100 default-font" id="main_block_btn"
+                                        type="button">
+                                        LOG IN
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 switch-login-block" id="right_login">
+                        <div class="text-left h-100 rounded-right switch-login-text-block">
+                            <div id="sub_right_text_div" class ="switch-login-text-position">
+                                <h2 class="text-left text-white default-font">
+                                    Have an account?
+                                </h2>
+                                <p class="text-left text-light default-font">
+                                    Login to Edison Smart Home network.
+                                </p>
+                                <button class="btn btn-outline-secondary text-center w-50 default-font" id="btn_right_login"
+                                    type="button">
+                                    LOGIN
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-flex right-edge-column" id="right_edge">
+                        <div class="w-100 rounded-right right-edge-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/js/login-signup.js"></script>
+</body>
+
+</html>

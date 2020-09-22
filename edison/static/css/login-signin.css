@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(116,116,116);
+    background-image: url(../Pictures/login/background.jpg);
+}
+
+.container-background{
+    background-color: rgba(0,0,0,0);
+    filter: blur(0px);
+}
+
+.container-padding{
+    padding: 50px;
+}
+
+.switch-sign-up-block{
+    display:block;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.switch-sign-up-text-block{
+    padding: 25px;
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 50px;
+}
+
+.login-block-column{
+    display:block;
+    background-color: rgba(141, 64, 64, 0);
+    padding: 0;
+}
+
+.login-block{
+    background-color: #ffffff;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+.login-title{
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.error-message{
+    color:red;
+}
+
+.forget-password-btn{
+    padding: 0;
+    padding-top: 6px;
+}
+
+.switch-sign-up-position{
+    position: absolute;
+}
+
+.switch-login-block{
+    display:none;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.switch-login-text-block{
+    padding: 25px;
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 50px;
+}
+
+.switch-login-text-position{
+    position: absolute;
+}
+
+.default-font{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.right-edge-column{
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 1;
+}
+
+.right-edge-block{
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 0;
+    padding-bottom: 0;
+}
